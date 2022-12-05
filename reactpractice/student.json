@@ -1,0 +1,24 @@
+{
+    "student":[
+        {
+            "id":1,
+            "name":"Arun",
+            "identity":"PlayBoy"
+        },
+        {
+            "id":2,
+            "name":"Bala",
+            "identity":"Innocent"
+        },
+        {
+            "id":3,
+            "name":"Ranjan",
+            "identity":"Useless"
+        },
+        {
+            "id":4,
+            "name":"Selva",
+            "identity":"LoveGod"
+        }
+    ]
+}

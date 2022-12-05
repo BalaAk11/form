@@ -1,0 +1,50 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "uname": "Ajay",
+      "city": "Chennai"
+    },
+    {
+      "id": 2,
+      "uname": "Bala",
+      "city": "Mumbai"
+    },
+    {
+      "id": 3,
+      "uname": "Christober",
+      "city": "Bangalore"
+    },
+    {
+      "uid": 4,
+      "uname": "Harish",
+      "city": "Madurai",
+      "id": 4
+    },
+    {
+      "uname": "Selva",
+      "city": "Madurai",
+      "id": 5
+    },
+    {
+      "uname": "Selva",
+      "city": "Madurai",
+      "id": 6
+    },
+    {
+      "uname": "Selva",
+      "city": "Madurai",
+      "id": 7
+    },
+    {
+      "uname": "Selva",
+      "city": "Madurai",
+      "id": 8
+    },
+    {
+      "uname": "Selva",
+      "city": "Madurai",
+      "id": 9
+    }
+  ]
+}

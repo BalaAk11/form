@@ -1,0 +1,24 @@
+{
+  "student": [
+    {
+      "name": "Selva",
+      "course": "REactNative",
+      "id": 1
+    },
+    {
+      "name": "BalaMurugan",
+      "course": "REactNative",
+      "id": 3
+    },
+    {
+      "name": "Prabhu",
+      "course": "PHP",
+      "id": 5
+    },
+    {
+      "name": "Praveen",
+      "course": "React",
+      "id": 7
+    }
+  ]
+}

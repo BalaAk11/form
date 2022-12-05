@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+table{
+  border-color: rgb(15, 15, 16); 
+  background-color: white;
+  margin-left: 40%;
+  margin-top: 5px;
+  height: 200px;
+}
+table th{
+  background-color: grey;
+}
