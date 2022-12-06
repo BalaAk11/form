@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Table from './table';
-import LifecycleA from './LifecycleA';
-import Employee from './employee';
-import Student from './student';
+import Hello from './Hello';
 
 function App() {
+
   return (
     <div className="App">
-      
+      <Hello name="Prabhu"/>
+      {/* <Hello name="Bala"/>
+      <Hello name="Mahendra"/>
+      <Hello name="Ashok"/> */}
+
     </div>
   );
 }
