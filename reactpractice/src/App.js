@@ -1,18 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
-import Hello from './Hello';
 
+import './App.css';
+// import HooksDemo from './hooksDemo';
+
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Create from './create';
+import Read from './read';
+import Update from './update';
 function App() {
 
   return (
-    <div className="App">
-      <Hello name="Prabhu"/>
-      {/* <Hello name="Bala"/>
-      <Hello name="Mahendra"/>
-      <Hello name="Ashok"/> */}
+    <BrowserRouter>
+     <div className="Main">
+      <h1>React Crud Operations</h1>
 
-    </div>
+     <Routes>
+      
+      <Route path='/' element={<Create/>}/>
+      <Route path='/read' element={<Read/>}/>
+      <Route path='/update' element={<Update/>}/>
+      
+
+     </Routes>
+     </div>
+
+    </BrowserRouter>
+    
+    
   );
 }
+
+// const App=()=>
+// {
+//   return(
+//     <div className='App'>
+//       <HooksDemo/>
+
+//     </div>
+//   )
+// }
 
 export default App;

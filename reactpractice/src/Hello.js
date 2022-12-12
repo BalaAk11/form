@@ -6,26 +6,36 @@ function Hello(props)
     const [course,setCourse]=useState('React')
     const [student,setStudent]=useState({name:"Bala",course:"React"})
 
+
     const update=()=>{
-        setName('Ashok')
+        // setStudent({course:"ReactNative"})
+        setStudent((prev)=>{return {...prev,course:"PHP"}})
     }
     //componentDidMount()
     useEffect(()=>{
-        setTimeout(()=>setStudent('Python'),5000)
+        setTimeout(()=>setName('Bala'),5000)
     },[])
 
     //componentDidUpdate()
-    // useEffect(()=>{
+    useEffect(()=>{
       
-    //     console.log('course is updated');
-    // },[name])
+        console.log('name is updated');
+    },[name])
+
+    useEffect(()=>{
+      
+      
+
+        return (()=>console.log('component Removed'))
+    },[])
 
     return(
         <div>
-            {/* <h1>Hello {props.name}</h1>
+            {/* {/* <h1>Hello {props.name}</h1> */}
+            {/* // <h1>Welcome {name}</h1>
+            // <h2>Course :{course}</h2> */}
             <h1>Welcome {name}</h1>
-            <h2>Course :{course}</h2>
-            <button onClick={update}>updateName</button> */}
+            <button onClick={update}>updateName</button> 
 
             <h1>Welcome {student.course}</h1>
         </div>

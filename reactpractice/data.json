@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "firstname": "Bala",
+      "lastname": "Ak",
+      "checkbox": "undefined",
+      "id": 1
+    },
+    {
+      "firstname": "Prabhu",
+      "lastname": "Virat",
+      "checkbox": true,
+      "id": 2
+    },
+    {
+      "firstname": "Harish",
+      "lastname": "Mr",
+      "checkbox": true,
+      "id": 3
+    },
+    {
+      "firstname": "Ashok",
+      "lastname": "Kumar",
+      "checkbox": "undefined",
+      "id": 4
+    },
+    {
+      "firstname": "Mahendran",
+      "lastname": "Mahi",
+      "checkbox": "undefined",
+      "id": 5
+    },
+    {
+      "firstname": "Arun",
+      "lastname": "Krishnan",
+      "checkbox": true,
+      "id": 6
+    }
+  ]
+}

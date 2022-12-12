@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+
+.Main
+{
+  background-color: rgb(237, 246, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.table th{
+ background-color: darkcyan;
 }
 
-table{
-  border-color: rgb(15, 15, 16); 
-  background-color: white;
-  margin-left: 30%;
-  margin-top: 5px;
-  height: 200px;
+/* .hooks
+{
+ 
+  height:200px;
+  border:1px solid black;
+
+  background-color: cadetblue;
+  margin: 10px;
+ 
 }
-table th{
-  background-color: grey;
-}
-.btn1{
-  background-color: rgb(32, 32, 187);
-  color: aliceblue;
-}
-.btn1:hover{
-  background-color: yellow;
-  color: black;
-}
-.btn2{
-  background-color: rgb(9, 193, 9);
-  color: aliceblue;
-}
-.btn2:hover{
-  background-color: yellow;
-  color: black;
-}
-.up{
-  background-color: green;
-  color: black;
-}
-.del{
-  background-color: red;
-  color: black;
-}
+.hooks2
+{
+  background-color: lightgreen;
+} */
+
