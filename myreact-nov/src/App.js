@@ -1,16 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './header';
-import Content from './content';
-import Footer from './footer';
+import Banner from './Banner';
 
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-    <Content/>
-    <Footer/>
+
+
+<Banner/>
     </div>
   );
 }

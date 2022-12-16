@@ -1,28 +1,130 @@
-.App {
+:root{
+  --color-1:#001542;
+  --color-2:#085454;
+  --color-3:#7A7A7A;
+  --color-4:#FFFFFF;
+  --color-5:#FFB30D;
+  --color-6:#7a7a7a69;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .container
+{
+  display:flex;
+  flex-direction: column;
+} */
+.ban{
+  background-color: #007f5f; 
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+}
+.ban i{
+  position: absolute;
+  right: 20%;
+}
+#num{
+  font-size: 10px;
+  background-color: aliceblue;
+  border-radius: 2px;
+  position: absolute;
+  right: 20.5%;
+  top: 2px;
+}
+.slider
+{
+  min-height: calc(50vh - 50px);
+  background: url("https://www.tutorjoes.in/img/food.jpg") center/cover no-repeat;
+  height: 200px;
+  position: relative;
+}
+.brand-banner {
+  background-color: var(--color-6);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  }
+  .brand-banner h3{
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  color:var(--color-5);
+  /* text-shadow: horizontal-offset vertical-offset blur color; */
+  text-shadow: 2px 1px 1px var(--color-2), 5px 1px 2px var(--color-1);
+  transition: transform 0.5s ease-out;
+  cursor: pointer;
+  }
+  .brand-banner h3:hover{
+  transform: scale(1.02);
+  }
+  .brand-banner p{
+  font-size: 15px;
+  color:var(--color-4);
+  text-shadow: 1px 0px 1px var(--color-5);
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  animation: 2s ease-out 0s 1 fadeIn;
+  }
+  
+  .menu-item{background-color: #007f5f; display:flex;justify-content: space-between;flex-wrap:wrap;}
+
+
+.menu-item {color:var(--color-4);text-decoration: none;}
+.menu{
+  background-color: #007f5f;
+  cursor: pointer;
+}
+.menu:hover{color:var(--color-5);background-color: yellow;color: black;}
+button{
+  border: #007f5f;
+}
+.dishes{
+  background-color: yellow;
+  color: #007f5f;
+  text-align: center;
+}
+.Product{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;   
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: white; 
+  border: solid black;
+}
+.Product-container{
+  border:solid black 2px;
+
+  align-items: center;
+}
+.Product-container img{
+  width: 100%;
+  height: 100px;
 }
 
-.header{
-  text-align: center;
-  background-color: rgba(52, 202, 251, 0.551);
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  padding-top: 75px;
-  font-size: 30px;
+@media (max-width: 1000px){
+  .Product{
+      grid-template-columns: repeat(4, 150px);
+  }
 }
-.footer{
-  text-align: center;
-  background-color: rgba(52, 202, 251, 0.551);
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  padding-top: 75px;
-  font-size: 30px;
+@media (max-width: 500px){
+  .Product{
+      grid-template-columns: repeat(2, 150px);
+  }
 }
-.content{
-  height: 400px;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 200px;
+.rate{
+  background-color: #001542;
+  color: whitesmoke;
+  align-items: center;
 }

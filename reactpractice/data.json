@@ -14,8 +14,8 @@
     },
     {
       "firstname": "Harish",
-      "lastname": "Mr",
-      "checkbox": true,
+      "lastname": "K",
+      "checkbox": "true",
       "id": 3
     },
     {
