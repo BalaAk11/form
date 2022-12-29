@@ -99,9 +99,10 @@ button{
   grid-template-columns: auto auto auto auto;
   gap: 20px;   
   justify-content: center;
+  margin-top: 20px;
   margin-bottom: 20px;
   background-color: white; 
-  border: solid black;
+  
 }
 .Product-container{
   border:solid black 2px;

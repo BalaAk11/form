@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Menu(props){
+    const[count,setCount]=useState(0)
+
+    const increment= ()=>{
+        setCount(count+1)
+    }
+    const decrement = ()=>{
+        setCount(count-1)
+    }
+
     return(
         <div className="Product">
         {
@@ -14,6 +23,7 @@ function Menu(props){
                      <h5>{i.SHOP}</h5><br/>
                      <div className="rate">
                      <h5>{i.FTYPE} Rs.{i.AMT}</h5>
+                     <button onClick={increment}>+</button>{count}<button onClick={decrement}>-</button>
                      </div>
                  </div>
              }
