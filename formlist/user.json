@@ -1,0 +1,51 @@
+{
+  "userData": [
+    {
+      "name": "Bala",
+      "number": "1",
+      "text": "Welcome Bala",
+      "dropDownValue": "option 1",
+      "radioValue": "option 2",
+      "rangeValue": "70",
+      "fileName": {},
+      "imgName": {},
+      "id": 1
+    },
+    {
+      "name": "Harish",
+      "number": "2",
+      "text": "Welcome Harissh",
+      "dropDownValue": "option 2",
+      "radioValue": "option 3",
+      "rangeValue": "85",
+      "id": 2
+    },
+    {
+      "name": "Mahendra",
+      "number": "3",
+      "text": "Welcome Mahendra",
+      "dropDownValue": "option 3",
+      "radioValue": "option 3",
+      "rangeValue": "65",
+      "id": 3
+    },
+    {
+      "name": "Vijay",
+      "number": "4",
+      "text": "Welcome Vijay",
+      "dropDownValue": "option 2",
+      "radioValue": "option 1",
+      "rangeValue": "75",
+      "id": 4
+    },
+    {
+      "name": "Ashok",
+      "number": "5",
+      "text": "Welcome Ashok",
+      "dropDownValue": "option 2",
+      "radioValue": "option 1",
+      "rangeValue": "79",
+      "id": 5
+    }
+  ]
+}
